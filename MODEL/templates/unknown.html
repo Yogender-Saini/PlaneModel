@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        #search-input {
+            width: 200px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 5px;
+            cursor: pointer;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav button {
+            padding: 5px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+        }
+
+        nav button:hover {
+            background-color: #45a049;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Webpage</h1>
+    </header>
+
+    <section id="about-me-section">
+        <h2>About Me</h2>
+        <p>This is where you can learn more about me and my interests.</p>
+    </section>
+
+    <nav>
+        <button onclick="goBack()">Back</button>
+    </nav>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+
+</html>
